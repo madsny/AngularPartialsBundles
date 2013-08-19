@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>AngularPartialsBundles</id>
+        <version>1.0.0.0</version>
+        <title>Angular Partials Bundeling</title>
+        <authors>madsny</authors>
+        <owners>madsny</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A library for bundeling angular partials and pushing them to the $templateCache</description>
+        <copyright>Copyright © Mads Nyborg 2013</copyright>
+        <dependencies>
+            <dependency id="Microsoft.AspNet.Web.Optimization" version="1.1.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="lib\net45\AngularPartialsBundles.dll" target="lib\net45\AngularPartialsBundles.dll" />
+    </files>
+</package>

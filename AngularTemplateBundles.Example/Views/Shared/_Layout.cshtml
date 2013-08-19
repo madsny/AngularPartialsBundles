@@ -1,0 +1,24 @@
+﻿@using AngularPartialsBundles
+<!DOCTYPE html>
+<html data-ng-app="angularPartialsBundles">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+    <body>
+        <h1>AngularJS partials bundles example</h1>
+        <ul>
+            <li><a href="#/home">Home</a></li>
+            <li><a href="#/another-page">Another page</a></li>
+            <li><a href="#/another-page/for-bundles">For bundles</a></li>
+        </ul>
+     
+        @RenderBody()
+    
+    
+        @Scripts.Render("~/bundles/lib")
+        @Scripts.Render("~/bundles/app")
+        @AngularPartials.Render("~/bundles/partials")
+    </body>
+</html>

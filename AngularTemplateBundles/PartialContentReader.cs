@@ -18,7 +18,7 @@ namespace AngularPartialsBundles
         {
             var contentRaw = File.ReadAllText(HttpContext.Current.Server.MapPath(bundleFile.VirtualFile.VirtualPath));
 
-            return contentRaw.Replace(Environment.NewLine, "\\n").Replace("'", "\'");
+            return contentRaw.Replace(Environment.NewLine, "\\n").Replace("'", "\\'");
         }
 
         public string GetName(BundleFile bundleFile)

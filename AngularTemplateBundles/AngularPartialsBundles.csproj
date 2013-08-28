@@ -67,6 +67,7 @@
     <Compile Include="TemplateCacheWriter.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="AngularPartialsBundles.1.0.0.0.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

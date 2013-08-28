@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>AngularPartialsBundles</id>
-        <version>1.0.0.0</version>
+        <version>1.0.1.0</version>
         <title>Angular Partials Bundeling</title>
         <authors>madsny</authors>
         <owners>madsny</owners>
@@ -13,7 +13,4 @@
             <dependency id="Microsoft.AspNet.Web.Optimization" version="1.1.0" />
         </dependencies>
     </metadata>
-    <files>
-        <file src="lib\net45\AngularPartialsBundles.dll" target="lib\net45\AngularPartialsBundles.dll" />
-    </files>
 </package>
